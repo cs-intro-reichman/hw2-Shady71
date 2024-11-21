@@ -12,11 +12,14 @@ public class TimeCalc {
         if (newHour < 10 && newMin < 10) {
             System.out.println("0" + newHour + ":" + "0" + newMin);
         }
-        if(newHour < 10 && newMin >= 10) {
+        if (newHour < 10 && newMin >= 10) {
             System.out.println("0" + newHour + ":" + newMin);
         }
-        if(newMin < 10 && newHour >= 10){
+        if (newMin < 10 && newHour >= 10) {
             System.out.println(newHour + ":" + "0" + newMin);
+        }
+        if (newHour > 10 && newMin > 10) {
+            System.out.println(newHour + ":" + newMin);
         }
     }
 }
