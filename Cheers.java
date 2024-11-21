@@ -14,7 +14,7 @@ public class Cheers {
             System.out.println("Give me " + chooseWord + wordChr + "!");
             indexCounter++;
         }
-        System.out.println("What does that spell? ");
+        System.out.println("What does that spell?");
 
         for (int l = 0; l < num; l++) {
             System.out.println(word + "!!!");
