@@ -10,7 +10,7 @@ public class Cheers {
 
         for (int i = 0; i < word.length(); i++) {
             char wordChr = word.charAt(indexCounter);
-            String chooseWord = specialLetters.indexOf(wordChr) != -1 ? "an "  + wordChr + ": " : "a " + wordChr + ": ";
+            String chooseWord = specialLetters.indexOf(wordChr) != -1 ? "an "  + wordChr + ": " : "a  " + wordChr + ": ";
             System.out.println("Give me " + chooseWord + wordChr + "!");
             indexCounter++;
         }
